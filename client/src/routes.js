@@ -1,0 +1,50 @@
+
+export const Routes = {
+    // pages
+    Presentation: { path: "/" },
+    About :{path:"/about"},
+    UserTaskList:{path:"/usertasklist"},
+    DashboardOverview: { path: "/dashboard/overview" },
+    AdminDashboard:{path:"/admin/dashboard"},
+    UserList: { path: "/transactions" },
+    // Pagination2: { path: "/myComponent/Pagination" },
+    AddUser: { path: "/adduser" },
+    UpdateUser: { path: "/user/:id" },
+    UpdateAssign: { path: "/task/:id" },
+    AssignTask: { path: "/assigntask" },
+    UserTask:{path:"/usertask"},
+    PnbForm: {path:"/bankform/1"},
+    UbiForm:{path:"/bankform/2"},
+    CbForm:{path:"/bankform/3"},
+    IdbiForm:{path:"/bankform/4"},
+    KarnatakaForm:{path:"/bankform/5"},
+    AddTask:{ path: "/addtask"},
+    TaskList: { path: "/tasklist" }, // add it here
+    BootstrapTables: { path: "/tables/bootstrap-tables" },
+    Signin: { path: "/examples/sign-in" },
+    Signup: { path: "/examples/sign-up" },
+    Logout: { path: "/examples/log-out" },
+    NotFound: { path: "/examples/404" },
+    // docs
+    DocsOverview: { path: "/documentation/overview" },
+    // components
+    Accordions: { path: "/components/accordions" },
+    Alerts: { path: "/components/alerts" },
+    Badges: { path: "/components/badges" },
+    Widgets: { path: "/widgets" },
+    Breadcrumbs: { path: "/components/breadcrumbs" },
+    Forms: { path: "/components/forms" },
+    UpdateForm : {path: "/components/updateform"},
+    Modals: { path: "/components/modals" },
+    Navs: { path: "/components/navs" },
+    Navbars: { path: "/components/navbars" },
+    Pagination: { path: "/components/pagination" },
+    Popovers: { path: "/components/popovers" },
+    Progress: { path: "/components/progress" },
+    Tables: { path: "/components/tables" },
+    Tabs: { path: "/components/tabs" },
+    Tooltips: { path: "/components/tooltips" },
+    Toasts: { path: "/components/toasts" },
+    WidgetsComponent: { path: "/components/widgets" }
+
+};
